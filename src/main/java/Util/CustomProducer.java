@@ -21,9 +21,9 @@ public class CustomProducer {
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
         Producer<String, String> producer = new KafkaProducer<String, String>(props);
-        for (int i = 1; i < 1000000; i++) {
+        for (int i = 1; i < 1; i++) {
 
-            producer.send(new ProducerRecord<String, String>("first",0 ,Integer.toString(i),i+"-"+i));
+            producer.send(new ProducerRecord<String, String>("example",0 ,Integer.toString(i),i+"-"+i));
         }
         producer.close();
     }

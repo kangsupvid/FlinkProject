@@ -10,6 +10,7 @@ import org.apache.flink.streaming.api.windowing.windows.TimeWindow
 import org.apache.flink.util.Collector
 import redis.clients.jedis.Jedis
 import org.apache.flink.api.scala._
+import org.apache.flink.streaming.api.datastream.DataStream
 import uv.UserBehavior
 
 

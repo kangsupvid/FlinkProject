@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="LoginFailDetect,MarketAnalysis,Spark_Kafka_Redis,ct_producer,FlinkProject,HotItemsAnalysis,KafkaHbase,NetworkFlowAnalysis" />
+    <profile name="Maven 1" modules="Flink_sparkProject,KafkaHbase,NetworkFlowAnalysis,ct_producer,PvUvTest,LogProject,Spark_Kafka_Redis,MarketAnalysis,LoginFailDetect,FlinkLean,zhibopingtai,HotItemsAnalysis,FlinkProject" />
   </component>
 </project>

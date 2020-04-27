@@ -24,6 +24,7 @@ object CustomConsumer1 {
       val records: ConsumerRecords[String, String] = consumer.poll(100)
       import scala.collection.JavaConversions._
       for (record <- records) {
+
         var split: Array[String] = record.value.split("-")
         println(split(0))
         println(split(1))
